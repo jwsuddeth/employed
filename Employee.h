@@ -59,7 +59,15 @@ class Employee
 			<< "Title: " << title << '\n'
 			<< "Salary: " << SalaryFormatter::formatSalary(salary) << '\n';
 
+
 	}
+
+
+	string getCsv() const 
+	{
+		return id + "," + firstName + "," + lastName + "," + title + "," + to_string(salary);
+	}
+
 };
 
 #endif

@@ -33,7 +33,7 @@ public:
          << "2. Get Employee\n"
         << "3. Delete Employee\n"
         << "4. Exit\n"
-        << "Enter your choice (1-3): ";
+        << "Enter your choice (1-4): ";
     }
     
     // Public method to display the menu and get a command from the user
